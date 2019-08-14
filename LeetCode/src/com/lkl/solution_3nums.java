@@ -1,6 +1,7 @@
-package com.lkl;
+﻿package com.lkl;
 
 import java.util.*;
+
 
 public class solution_3nums {
     public static void main(String[] args) {
@@ -56,7 +57,7 @@ public class solution_3nums {
             Integer key = it.next();
             System.out.println(key+"："+hashMap2.get(key));
         }*/
-
+//测试git
         /*
         map集合的entryset遍历方式
          */
