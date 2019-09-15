@@ -56,6 +56,7 @@ public class Question01 {
         }
         //打印倒数第K个结点中的data
         public void printK(int k){
+            //转换为正序：倒数第一个 对应 正数第 size-k+1个
             int index = size-k+1;
             if (head == null){
                 return ;
